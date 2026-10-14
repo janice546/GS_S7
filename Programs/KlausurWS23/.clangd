@@ -1,0 +1,28 @@
+CompileFlags:
+  CompilationDatabase: >-
+    c:\TI_Labor\GitProjekte\GS_S7\Programs\KlausurWS23\out\KlausurWS23\ITSboard\Debug
+  Add:
+    - '-D__ARMCOMPILER_LIBCXX=1'
+    - '-IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/Inc'
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../stm32cubef4/Drivers/CMSIS/Include
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../stm32cubef4/Drivers/BSP/STM32F4xx_Nucleo_144
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../stm32cubef4/Utilities/Fonts
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../DisplayWaveshare/Inc
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../ITS_BRD_LIB/Utilities/AddFonts
+    - >-
+      -IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/tmp/KlausurWS23.Debug+ITSboard
+    - '-IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/RTE/_Debug_ITSboard'
+    - >-
+      -IC:/Users/janic/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+    - >-
+      -IC:/Users/janic/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - '-IC:/TI_Labor/GitProjekte/GS_S7/Programs/KlausurWS23/../../ITS_BRD_LIB/Inc'

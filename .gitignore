@@ -6,6 +6,10 @@
 # Ignore User specific setting
 /Programs/*/*.uvguix.*
 
+# Ignore generated build files
+/Programs/*/tmp/
+/Programs/*/out/
+
 ### macOS ###
 # General
 .DS_Store
