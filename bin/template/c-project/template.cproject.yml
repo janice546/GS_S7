@@ -36,6 +36,8 @@ project:
       misc:
         - C:  # C-spezifische Compiler-Optionen
             - -std=c99
+            - -Wall
+            - -Wextra
           C-CPP:  # Optionen für C++
             - -fno-rtti
             - -funsigned-char
@@ -46,7 +48,7 @@ project:
             - -Wno-missing-variable-declarations
             - -Wno-missing-prototypes
             - -Wno-missing-noreturn
-            - -Wno-sign-conversion
+            - -Wsign-conversion
             - -Wno-nonportable-include-path
             - -Wno-reserved-id-macro
             - -Wno-unused-macros
